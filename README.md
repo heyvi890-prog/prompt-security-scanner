@@ -44,7 +44,7 @@ VS Code Extension → Flask API → Fine-tuned DistilBERT Model
 
 ```bash
 git clone <https://github.com/heyvi890-prog/prompt-security-scanner.git>
-cd prompt-security
+cd prompt-security-scanner
 ```
 
 ### Install Python dependencies
@@ -100,12 +100,16 @@ Output:
 
 * Result: Potentially harmful (educational context detected)
 
-## Future Improvements
+### Scanning a Prompt
+1. In the Extension Development Host window, open or create any text file
+2. Highlight the text you want to check (or leave nothing selected to scan the entire file)
+3. Open the Command Palette (`Ctrl+Shift+P`) and run **"Scan Prompt"**
+4. The result and confidence score will appear as a notification
 
-* Automatic real-time scanning
-* Online API deployment
-* Marketplace publishing
-* Improved context-aware classification
+
+## Model Weights
+Pretrained model weights are not included in this repo due to file size (~255MB).
+Run the training notebook (`https://colab.research.google.com/drive/1jUqnLNkxihsfiouARytpS4R75PdbQg5j?usp=sharing`) to fine-tune
 
 ## Author
 
