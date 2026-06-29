@@ -1,9 +1,21 @@
 # Prompt Security VS Code Extension
 
-## Overview
+🔍 Overview
 
-Prompt Security is a VS Code extension that detects potentially harmful prompts using a fine-tuned DistilBERT model. The extension scans user prompts and warns users about harmful or suspicious content directly inside VS Code.
+Prompt Security Scanner is a VS Code extension designed to detect potentially harmful or malicious prompts using a fine-tuned DistilBERT transformer model.
 
+It helps identify unsafe inputs such as phishing attempts, social engineering prompts, and policy-violating instructions in real time, making it useful for AI safety, LLM security, and prompt injection detection research.
+
+🚨 Problem Statement
+
+Large Language Models are vulnerable to:
+
+Prompt injection attacks
+Phishing-style instructions
+Jailbreak attempts
+Malicious content generation requests
+
+This project aims to detect such prompts early and provide real-time warnings inside the development environment.
 ## Features
 
 * Harmful prompt detection using DistilBERT
