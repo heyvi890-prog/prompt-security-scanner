@@ -110,6 +110,7 @@ Output:
 ## Model Weights
 Pretrained model weights are not included in this repo due to file size (~255MB).
 Run the training notebook (`https://colab.research.google.com/drive/1jUqnLNkxihsfiouARytpS4R75PdbQg5j?usp=sharing`) to fine-tune
+and export `model.safetensors`, then place it in `api/model/` before starting the Flask server
 
 ## Author
 
