@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+
+# Build output
+dist/
+out/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# VS Code testing
+.vscode-test/
+
+# OS files
+.DS_Store
+Thumbs.db
+

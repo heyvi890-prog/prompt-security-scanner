@@ -1,0 +1,7 @@
+flask
+torch
+scikit-learn
+transformers
+datasets
+safetensors
+sentencepiece
